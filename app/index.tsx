@@ -42,7 +42,7 @@ export default function Home() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#2f1e2eff', // cor de fundo personalizada (roxo escuro)
+    backgroundColor: '#2f1e2eff',
     alignItems: 'center',
     justifyContent: 'center',
     padding: 20,
@@ -70,7 +70,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   button: {
-    backgroundColor: '#6c63ff', // cor dos botões (roxo)
+    backgroundColor: '#6c63ff', 
     paddingVertical: 12,
     paddingHorizontal: 40,
     borderRadius: 10,

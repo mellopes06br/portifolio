@@ -6,12 +6,27 @@ export default function ExperienciaAcademica() {
       <Text style={styles.title}>Experiência Acadêmica</Text>
       <Text>🎓 Graduação em Sistemas para Internet - UNICAP</Text>
       <Text>📘 Curso: React Native Avançado - Alura</Text>
-      <Text>Inglês para Dev's - RockeatSeat </Text>
+      <Text>💬 Inglês para Dev's - Rocketseat</Text>
     </View>
   );
 }
 
 const styles = StyleSheet.create({
-  container: { flex: 1, padding: 20, justifyContent: 'center' },
-  title: { fontSize: 22, fontWeight: 'bold', marginBottom: 10 }
+  container: {
+    flex: 1,
+    backgroundColor: '#2f1e2eff', 
+    justifyContent: 'center',
+    alignItems: 'center', 
+    padding: 20,
+  },
+  title: {
+    fontSize: 22,
+    fontWeight: 'bold',
+    marginBottom: 10,
+    color: '#FFFFFF', 
+  },
+  text: {
+    color: '#FFFFFF', 
+    textAlign: 'center',
+  },
 });

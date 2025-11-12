@@ -4,14 +4,32 @@ export default function Projetos() {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Projetos</Text>
-      <Text>📱 App de Controle Financeiro</Text>
-      <Text>🌐 Site Portfólio em React</Text>
-      <Text>🤖 Chatbot em Node.js</Text>
+      <Text style={styles.text}>📱 App de Controle Financeiro</Text>
+      <Text style={styles.text}>🌐 Site Portfólio em React</Text>
+      <Text style={styles.text}>🤖 Chatbot em Node.js</Text>
     </View>
   );
 }
 
 const styles = StyleSheet.create({
-  container: { flex: 1, padding: 20, justifyContent: 'center' },
-  title: { fontSize: 22, fontWeight: 'bold', marginBottom: 10 }
+  container: {
+    flex: 1,
+    backgroundColor: '#2f1e2eff', // fundo roxo escuro
+    justifyContent: 'center',
+    alignItems: 'center', // centraliza horizontalmente
+    padding: 20,
+  },
+  title: {
+    fontSize: 22,
+    fontWeight: 'bold',
+    marginBottom: 10,
+    color: '#FFFFFF', // texto branco
+    textAlign: 'center',
+  },
+  text: {
+    color: '#FFFFFF',
+    textAlign: 'center',
+    fontSize: 16,
+    marginBottom: 5,
+  },
 });

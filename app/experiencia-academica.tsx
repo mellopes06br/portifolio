@@ -4,9 +4,9 @@ export default function ExperienciaAcademica() {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Experiência Acadêmica</Text>
-      <Text>🎓 Graduação em Sistemas para Internet - UNICAP</Text>
-      <Text>📘 Curso: React Native Avançado - Alura</Text>
-      <Text>💬 Inglês para Dev's - Rocketseat</Text>
+      <Text style={styles.text}>🎓 Graduação em Sistemas para Internet - UNICAP</Text>
+      <Text style={styles.text}>📘 Curso: React Native Avançado - Alura</Text>
+      <Text style={styles.text}>💬 Inglês para Dev's - Rocketseat</Text>
     </View>
   );
 }
